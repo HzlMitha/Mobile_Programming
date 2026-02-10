@@ -9,7 +9,7 @@
 ## Bukti Praktikum
 *Berikut adalah screenshot*
 *A. hasil unduh android-studio dan flutter:*
-![Unduhan](.\docs\unduh_android-Studi_dan_flutter.png)
+![Unduhan](docs\unduh_android-Studi_dan_flutter.png)
 
 *B. hasil simpan android dan flutter sdk ke drive D:*
 ![Simpan SDK](.\docs\simpan_android_dan_flutter_sdk_ke_drive_d.png)
