@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # Laporan Praktikum Minggu 1
 
 ## Hasil Instalasi
@@ -36,4 +34,3 @@
 
 ## Analisis
 Proses instalasi berjalan lancar. Penambahan Path Dart SDK dan flutter \bin pada Environment Variables sangat penting, ditambahkan pada User Variables agar perintah `dart` dapat dikenali oleh Terminal/CMD. Program `hello_world.dart` berhasil dijalankan menggunakan fungsi `main()` sebagai entry point utama.
->>>>>>> e0cb9ec3f7f615bfa5e97e601643eb9c7231ff64
