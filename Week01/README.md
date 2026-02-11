@@ -2,10 +2,11 @@
 
 ## Hasil Instalasi
 
-1. **Dart SDK**: Terinstal (versi 3.10.8)
-2. **Visual Studio Code**: Terinstal dengan ekstensi Flutter, untuk ekstensi dart sudah termasuk di ekstensi Flutter.
-3. **Android Studio**: Terinstal dengan Android SDK dan Emulator.
-4. **Git**: Terinstal dan terkonfigurasi ke GitHub (HzlMitha).
+1. **Flutter**: Terinstal (versi 3.38.9) untuk path ditambahkan di environment variables.
+2. **Dart SDK**: Terinstal (versi 3.10.8), dart ini juga berasal dari flutter dimana path dart SDK ditambahkan juga di environment variables (User Variables).
+3. **Visual Studio Code**: Terinstal dengan ekstensi Flutter, untuk ekstensi dart sudah termasuk di ekstensi Flutter.
+4. **Android Studio**: Terinstal dengan Android SDK dan Emulator.
+5. **Git**: Terinstal dan terkonfigurasi ke GitHub (HzlMitha).
 
 ## Bukti Praktikum
 
@@ -37,4 +38,4 @@
 
 ## Analisis
 
-Proses instalasi berjalan lancar. Penambahan Path Dart SDK dan flutter /bin pada Environment Variables sangat penting, ditambahkan pada User Variables agar perintah `dart` dapat dikenali oleh Terminal/CMD. Program `hello_world.dart` berhasil dijalankan menggunakan fungsi `main()` sebagai entry point utama.
+Proses instalasi berjalan lancar. Penambahan Path Dart SDK dan flutter /bin pada Environment Variables sangat penting, ditambahkan pada User Variables agar perintah `dart` dapat dikenali oleh Terminal/CMD. Program `hello_world.dart` berhasil dijalankan menggunakan fungsi `main()` sebagai entry point utama. Selain 'flutter', android studio juga diinstalasi karena komponen pendukung android atau SDK dibutuhkan oleh flutter agar aplikasinya bisa berjalan di android dengan mengompilasi kode yang telah dibuat (dart) jadi aplikasi android (.apk).
