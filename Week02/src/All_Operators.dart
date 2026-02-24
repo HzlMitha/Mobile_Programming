@@ -101,8 +101,8 @@ void main() {
   print('\n' + '=' * 44);
   print('8  OPERATOR TYPE TEST');
   print('=' * 44);
-  int angka = 42;
-  String teks = 'Hello';
+  dynamic angka = 42;
+  dynamic teks = 'Hello';
   print('angka is int     → ${angka is int}');
   print('angka is! String → ${angka is! String}');
   print('teks is String   → ${teks is String}');
