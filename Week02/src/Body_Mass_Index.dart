@@ -45,8 +45,8 @@ void main() {
 
   // Informasi tambahan
   print('Referensi Kategori BMI:');
-  print('   • < 18.5      : Kurus');
-  print('   • 18.5 - 24.9 : Normal');
-  print('   • 25.0 - 29.9 : Gemuk');
-  print('   • ≥ 30.0      : Obesitas');
+  print('   - < 18.5      : Kurus');
+  print('   - 18.5 - 24.9 : Normal');
+  print('   - 25.0 - 29.9 : Gemuk');
+  print('   - ≥ 30.0      : Obesitas');
 }
