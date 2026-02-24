@@ -2,7 +2,7 @@ import 'dart:io';
 
 void main() {
   print('');
-  print('   DEMONSTRASI SEMUA OPERATOR DART          ');
+  print('   DEMONSTRASI SEMUA OPERATOR DART   ');
   print('=' * 44);
 
   // Input dua angka

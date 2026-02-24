@@ -10,6 +10,10 @@ Kumpulan program Dart untuk pembelajaran pemrograman mobile.
    - Menampilkan kategori BMI (Kurus, Normal, Gemuk, Obesitas tingkat 1, dan Obesitas tingkat 2)
 
 2. **Currency Converter** (`Currency_Converter.dart`)
+   - Konversi mata uang ke 6 jenis mata uang (IDR, USD, EUR, JPY, SGD, MYR)
+   - Menggunakan kurs yang realistis
+
+2. **Currency Converter** (`Currency_Rupiah_Converter.dart`)
    - Konversi mata uang rupiah ke 4 jenis mata uang (IDR, USD, EUR, JPY, KWR)
    - Menggunakan kurs yang realistis
 

@@ -1,45 +1,66 @@
 import 'dart:io';
 
 void main() {
+  // Kurs mata uang terhadap IDR (Indonesian Rupiah)
+  Map<String, double> kurs = {
+    'IDR': 1.0,           // Rupiah Indonesia
+    'USD': 15750.0,       // US Dollar
+    'EUR': 17200.0,       // Euro
+    'JPY': 106.0,         // Japanese Yen
+    'SGD': 11800.0,       // Singapore Dollar
+    'MYR': 3550.0,        // Malaysian Ringgit
+  };
+
   print('');
-  print('KALKULATOR KONVERSI UANG');
-  print('=========================\n');
+  print('   KALKULATOR KONVERSI MATA UANG    ');
+  print('===================================\n');
 
-  stdout.write('Masukkan jumlah uang (dalam Rupiah): ');
-  double? rupiah = double.tryParse(stdin.readLineSync() ?? '');
+  print('Mata Uang yang Tersedia:');
+  int index = 1;
+  kurs.forEach((kode, nilai) {
+    print('   $index. $kode');
+    index++;
+  });
+  print('');
 
-  if (rupiah == null || rupiah < 0) {
-    print('\nError: Input tidak valid! Masukkan angka positif.');
+  stdout.write('Dari mata uang (contoh: USD): ');
+  String? dariMataUang = stdin.readLineSync()?.toUpperCase();
+
+  stdout.write('Input Jumlah uang: ');
+  double? jumlah = double.tryParse(stdin.readLineSync() ?? '');
+
+  stdout.write('Ke mata uang (contoh: IDR): ');
+  String? keMataUang = stdin.readLineSync()?.toUpperCase();
+
+  // Validasi input
+  if (dariMataUang == null || keMataUang == null || jumlah == null) {
+    print('\n Error: Input tidak valid!');
     return;
   }
 
-  // Kurs konversi
-  const double kursUSD = 15750.0; 
-  const double kursEUR = 17200.0;
-  const double kursJPN = 106.0;
-  const double kursKRW = 11000;
+  if (!kurs.containsKey(dariMataUang) || !kurs.containsKey(keMataUang)) {
+    print('\n Error: Mata uang tidak tersedia!');
+    return;
+  }
 
-  // Hitung konversi
-  double dolar = rupiah / kursUSD;
-  double euro = rupiah / kursEUR;
-  double yen = rupiah / kursJPN;
-  double won = rupiah / kursKRW;
+  if (jumlah < 0) {
+    print('\n Error: Jumlah tidak boleh negatif!');
+    return;
+  }
 
+  // Rumus: jumlah × kurs_asal ÷ kurs_tujuan
+  double nilaiDalamIDR = jumlah * kurs[dariMataUang]!;
+  double hasil = nilaiDalamIDR / kurs[keMataUang]!;
+
+  // Tampilkan hasil
+  print('\n');
+  print('        HASIL KONVERSI             ');
+  print('====================================');
+  print('$jumlah $dariMataUang = ${hasil.toStringAsFixed(2)} $keMataUang');
   print('');
-  print('    HASIL KONVERSI');
-  print('=========================');
-  print('Jumlah Uang     : Rp ${rupiah.toStringAsFixed(2)}');
-  print('Dalam Dolar     : \$ ${dolar.toStringAsFixed(2)}');
-  print('Dalam Euro      : € ${euro.toStringAsFixed(2)}');
-  print('Dalam Yen       : ¥ ${yen.toStringAsFixed(2)}');
-  print('Dalam Won       : ₩ ${won.toStringAsFixed(2)}');
-  print('=========================\n');
-
-  // Informasi tambahan
-  print('Kurs yang digunakan:');
-  print('   - USD: Rp $kursUSD');
-  print('   - EUR: Rp $kursEUR');
-  print('   - JPY: Rp $kursJPN');
-  print('   - KRW: Rp $kursKRW');
   
+  print('Kurs yang Digunakan:');
+  print('   1 $dariMataUang = ${kurs[dariMataUang]!.toStringAsFixed(2)} IDR');
+  print('   1 $keMataUang = ${kurs[keMataUang]!.toStringAsFixed(2)} IDR');
+  print('');
 }
