@@ -35,7 +35,7 @@ void main() {
   }
 
   print('');
-  print('         HASIL PERHITUNGAN');
+  print('        HASIL PERHITUNGAN');
   print('=================================');
   print('Berat Badan    : ${berat.toStringAsFixed(1)} kg');
   print('Tinggi Badan   : ${tinggiCm.toStringAsFixed(1)} cm');

@@ -14,9 +14,9 @@ void main() {
   }
 
   // Kurs konversi
-  const double kursUSD = 15500; 
-  const double kursEUR = 17000;
-  const double kursJPN = 108;
+  const double kursUSD = 15750.0; 
+  const double kursEUR = 17200.0;
+  const double kursJPN = 106.0;
   const double kursKRW = 11000;
 
   // Hitung konversi
@@ -26,7 +26,7 @@ void main() {
   double won = rupiah / kursKRW;
 
   print('');
-  print('         HASIL KONVERSI');
+  print('    HASIL KONVERSI');
   print('=========================');
   print('Jumlah Uang     : Rp ${rupiah.toStringAsFixed(2)}');
   print('Dalam Dolar     : \$ ${dolar.toStringAsFixed(2)}');
