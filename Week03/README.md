@@ -1,4 +1,4 @@
-# raktikum Pemrograman Mobile - Minggu 4
+# Praktikum Pemrograman Mobile - Minggu 4
 ## Percabangan, Perulangan, dan Operasi Git
 
 ---
@@ -49,12 +49,12 @@ dart game_tebak_angka.dart
 
 ## Fitur Program
 
-### 3️⃣ Game Tebak Angka
-- ✅ Generate angka random 1-100
-- ✅ Maksimal 7 kesempatan
-- ✅ Hint cerdas (sangat dekat/dekat/jauh)
-- ✅ Rating performa (Excellent/Bagus/Lumayan)
-- ✅ Opsi main lagi
+### Game Tebak Angka
+- Generate angka random 1-100
+- Maksimal 7 kesempatan
+- Hint cerdas (sangat dekat/dekat/jauh)
+- Rating performa (Excellent/Bagus/Lumayan)
+- Opsi main lagi
 
 **Contoh Output:**
 ```
