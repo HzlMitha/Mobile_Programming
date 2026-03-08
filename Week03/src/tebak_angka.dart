@@ -79,4 +79,37 @@ void main() {
       print('Sisa kesempatan: $sisa\n');
     }
   }
+
+  // Hasil akhir dengan percabangan
+  print('=================================');
+  if (menang) {
+    print('KAMU MENANG!');
+    print('Angka rahasia: $angkaRahasia');
+    print('Berhasil dalam $percobaan percobaan');
+    
+    // Rating performa
+    if (percobaan <= 3) {
+      print('Rating:  EXCELLENT!');
+    } else if (percobaan <= 5) {
+      print('Rating:  BAGUS!');
+    } else {
+      print('Rating:  LUMAYAN!');
+    }
+  } else {
+    print(' GAME OVER!');
+    print('Angka rahasia adalah: $angkaRahasia');
+    print('Lebih beruntung lain kali!');
+  }
+  print('=================================');
+  
+  // Tanya mau main lagi
+  stdout.write('\nMain lagi? (y/n): ');
+  String? mainLagi = stdin.readLineSync();
+  
+  if (mainLagi != null && mainLagi.toLowerCase() == 'y') {
+    print('\n');
+    main(); // Recursive call untuk main lagi
+  } else {
+    print('\nTerima kasih sudah bermain! Sampai jumpa!');
+  }
 }
