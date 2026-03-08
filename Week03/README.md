@@ -1,17 +1,13 @@
-# 🎯 Praktikum Pemrograman Mobile - Minggu 4
-## Variabel, Tipe Data, dan Operator Dart
-
-[![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
+# raktikum Pemrograman Mobile - Minggu 4
+## Percabangan, Perulangan, dan Operasi Git
 
 ---
 
-## 📋 Deskripsi
+## Deskripsi
 
-Repository ini berisi tiga program Dart yang mendemonstrasikan penggunaan **percabangan** dan **perulangan** untuk menyelesaikan berbagai masalah:
+Repository ini berisi program Dart yang mendemonstrasikan penggunaan **percabangan** dan **perulangan** untuk menyelesaikan berbagai masalah:
 
-1. **Kalkulator Faktorial** - Menghitung faktorial dari bilangan bulat
-2. **Cek Bilangan Prima** - Mengecek apakah suatu bilangan adalah bilangan prima
-3. **Game Tebak Angka** - Game interaktif menebak angka dengan hint
+1. **Game Tebak Angka** - Game interaktif menebak angka dengan hint
 
 ---
 
@@ -25,7 +21,7 @@ Repository ini berisi tiga program Dart yang mendemonstrasikan penggunaan **perc
 
 ---
 
-## 🚀 Cara Menjalankan
+## Cara Menjalankan
 
 ### Prasyarat
 - Install [Dart SDK](https://dart.dev/get-dart)
@@ -37,24 +33,13 @@ Repository ini berisi tiga program Dart yang mendemonstrasikan penggunaan **perc
 git clone <url-repository-anda>
 cd <nama-folder>
 
-# Jalankan program faktorial
-dart faktorial.dart
-
-# Jalankan program cek prima
-dart cek_prima.dart
-
 # Jalankan game tebak angka
 dart game_tebak_angka.dart
 ```
 
----
-
-## 📁 Struktur File
-
+##  Struktur File
 ```
-.
-├── faktorial.dart           # Program kalkulator faktorial
-├── cek_prima.dart          # Program cek bilangan prima
+
 ├── game_tebak_angka.dart   # Game tebak angka
 ├── PENJELASAN_ALUR.md      # Dokumentasi lengkap alur program
 └── README.md               # File ini
@@ -62,34 +47,7 @@ dart game_tebak_angka.dart
 
 ---
 
-## 💡 Fitur Program
-
-### 1️⃣ Kalkulator Faktorial
-- ✅ Input validasi (kosong, bukan angka, negatif)
-- ✅ Perhitungan faktorial dengan perulangan
-- ✅ Menampilkan proses perhitungan
-- ✅ Klasifikasi hasil (besar/kecil)
-
-**Contoh Output:**
-```
-Masukkan bilangan: 5
-Proses: 5 × 4 × 3 × 2 × 1
-Faktorial dari 5 adalah 120
-```
-
-### 2️⃣ Cek Bilangan Prima
-- ✅ Validasi input lengkap
-- ✅ Algoritma pengecekan prima efisien
-- ✅ Menampilkan semua faktor pembagi
-- ✅ Mencari bilangan prima terdekat (sebelum & sesudah)
-
-**Contoh Output:**
-```
-Masukkan bilangan: 17
-17 adalah bilangan PRIMA! ✓
-Prima sebelumnya: 13
-Prima setelahnya: 19
-```
+## Fitur Program
 
 ### 3️⃣ Game Tebak Angka
 - ✅ Generate angka random 1-100
@@ -102,12 +60,12 @@ Prima setelahnya: 19
 ```
 Tebakan: 50 → "Terlalu rendah, coba lebih tinggi!"
 Tebakan: 75 → "Terlalu tinggi, sangat dekat!"
-Tebakan: 67 → "SELAMAT! Rating: ⭐⭐⭐⭐⭐ EXCELLENT!"
+Tebakan: 67 → "SELAMAT! Rating: EXCELLENT!"
 ```
 
 ---
 
-## 🔧 Konsep yang Digunakan
+## Konsep yang Digunakan
 
 ### Percabangan (Branching)
 - `if-else` sederhana
@@ -117,7 +75,7 @@ Tebakan: 67 → "SELAMAT! Rating: ⭐⭐⭐⭐⭐ EXCELLENT!"
 
 ### Perulangan (Looping)
 - `for` loop
-- `while` loop
+- `do-while` loop
 - Loop dengan kondisi kompleks
 - Rekursi
 
@@ -141,9 +99,8 @@ Melalui praktikum ini, saya mempelajari:
 
 1. Kombinasi percabangan dan perulangan untuk problem solving
 2. Validasi input yang robust
-3. Algoritma matematika (faktorial, prima)
-4. Game logic dengan state management
-5. Best practices Dart programming
+3. Game logic dengan state management
+4. Best practices Dart programming
 
 ---
 
@@ -152,9 +109,8 @@ Melalui praktikum ini, saya mempelajari:
 Repository ini menggunakan branching untuk menunjukkan perkembangan fitur:
 
 - `main` - Branch utama (stable)
-- `feature/faktorial` - Development fitur faktorial
-- `feature/cek-prima` - Development fitur cek prima
-- `feature/game` - Development game tebak angka
+- `feature/logic` - Input User dasar, guessing loop, dan validasi
+- `feature/hasil-logic` - hasil guessing game dan message
 
 Minimal 5 commit menunjukkan progres development.
 
