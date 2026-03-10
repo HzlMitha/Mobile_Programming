@@ -13,4 +13,4 @@
 * [Laporan Minggu 1](https://docs.google.com/document/d/1Oxwz1_K4biAZbMp7eda8KB-sPgZZYPUt/edit?usp=sharing&ouid=103601691833195404415&rtpof=true&sd=true)
 * [Minggu 2 - Variabel, Tipe Data dan Operator Dart](./Week02/README.md)
 * [Minggu 3 - Percabangan, Perulangan, dan Operasi Git](./Week03/README.md)
-* [Minggu 4 - Quiz01](./Quiz01/README.md)
+* [Minggu 4 - Quiz01](./Quiz1/README.md)
