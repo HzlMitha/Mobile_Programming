@@ -78,11 +78,13 @@ Week#04/
 
 ---
 
-## Bukti Output
+## Bukti Hasil Kuis (Output dan Github)
 
 *Hasil eksekusi program kuis_244107060049:*
 ![kuis_244107060049](./docs/hasil_output_program.png)
 
+*Hasil push github program kuis_244107060049:*
+![kuis_244107060049](./docs/git_push.png)
 ---
 
 ## Bagaimana NIM mempengaruhi total belanja
