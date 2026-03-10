@@ -37,10 +37,12 @@ cd <nama-folder>
 dart game_tebak_angka.dart
 ```
 
-##  Struktur File
+## Struktur File
 
+```
 ├── game_tebak_angka.dart   # Game tebak angka
 └── README.md               # File ini
+```
 
 ---
 

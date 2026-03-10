@@ -67,12 +67,14 @@ Nilai ini ditambahkan sebagai elemen ke-6 dalam list hargaBarang, sehingga mempe
 
 ## Struktur Folder GitHub
 
+```
 Week#04/
 ├── src/
 │   └── kuis_244107060049.dart
 ├── docs/
 │   └── screenshot_output.png
 └── README.md
+```
 
 ---
 
