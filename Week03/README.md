@@ -38,18 +38,16 @@ dart game_tebak_angka.dart
 ```
 
 ##  Struktur File
-```
 
 ├── game_tebak_angka.dart   # Game tebak angka
-├── PENJELASAN_ALUR.md      # Dokumentasi lengkap alur program
 └── README.md               # File ini
-```
 
 ---
 
 ## Fitur Program
 
 ### Game Tebak Angka
+
 - Generate angka random 1-100
 - Maksimal 7 kesempatan
 - Hint cerdas (sangat dekat/dekat/jauh)
@@ -57,29 +55,32 @@ dart game_tebak_angka.dart
 - Opsi main lagi
 
 **Contoh Output:**
-```
+
 Tebakan: 50 → "Terlalu rendah, coba lebih tinggi!"
 Tebakan: 75 → "Terlalu tinggi, sangat dekat!"
 Tebakan: 67 → "SELAMAT! Rating: EXCELLENT!"
-```
+
 
 ---
 
-## Konsep yang Digunakan
+## Konsep yang dipelajari
 
 ### Percabangan (Branching)
+
 - `if-else` sederhana
 - `if-else if-else` bertingkat
 - **Nested if** (percabangan bersarang)
 - Validasi input
 
 ### Perulangan (Looping)
+
 - `for` loop
 - `do-while` loop
 - Loop dengan kondisi kompleks
 - Rekursi
 
 ### Variabel & Tipe Data
+
 - `int` - Bilangan bulat
 - `String` - Teks
 - `bool` - Boolean
@@ -87,6 +88,7 @@ Tebakan: 67 → "SELAMAT! Rating: EXCELLENT!"
 - Nullable variables (`String?`, `int?`)
 
 ### Operator
+
 - **Aritmatika:** `*`, `/`, `%`, `++`, `--`, `~/`
 - **Perbandingan:** `==`, `!=`, `<`, `>`, `<=`, `>=`
 - **Logika:** `&&`, `||`, `!`
