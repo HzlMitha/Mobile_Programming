@@ -80,11 +80,11 @@ Week#04/
 
 ## Bukti Output
 
-* Hasil eksekusi program kuis_244107060049: *
+*Hasil eksekusi program kuis_244107060049:*
 ![kuis_244107060049](./docs/hasil_output_program.png)
 
 ---
 
 ## Bagaimana NIM mempengaruhi total belanja
 
-* Bagaimana nilai unik NIM dapat mempengaruhi harga barang *, Karena total harga barang awal sebelum dimasukkan nilai unik NIM saya yaitu (049 atau 49.00 dalam double) adalah Rp 254.201,50 tetapi karena ditambah nilai unik saya jadinya 254.250,50 jadi total harga barang bertambah sekitar 49.00 rupiah. Jika dibayangkan saya hanya nambah 1 item bernilai 49.00 rupiah ke dalam list belanja saya yang sebelumnya 5 item.
+*Bagaimana nilai unik NIM dapat mempengaruhi harga barang*, Karena total harga barang awal sebelum dimasukkan nilai unik NIM saya yaitu (049 atau 49.00 dalam double) adalah Rp 254.201,50 tetapi karena ditambah nilai unik saya jadinya 254.250,50 jadi total harga barang bertambah sekitar 49.00 rupiah. Jika dibayangkan saya hanya nambah 1 item bernilai 49.00 rupiah ke dalam list belanja saya yang sebelumnya 5 item.
