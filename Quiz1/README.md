@@ -80,6 +80,8 @@ Week#04/
 
 ## Bukti Hasil Kuis (Output dan Github)
 
+*Bukti hasil Screeshot*
+
 *Hasil eksekusi program kuis_244107060049:*
 ![kuis_244107060049](./docs/hasil_output_program.png)
 
