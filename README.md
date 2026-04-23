@@ -14,3 +14,4 @@
 * [Minggu 2 - Variabel, Tipe Data dan Operator Dart](./Week02/README.md)
 * [Minggu 3 - Percabangan, Perulangan, dan Operasi Git](./Week03/README.md)
 * [Minggu 4 - Quiz01](./Quiz1/README.md)
+* [Minggu 6 - Layout dan Navigasi](./Week06/layout_flutter/README.md)
